@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    color:  bisque;
+
+    animation: slide 5s linear 1s 1 normal;
+}
+
+body {
+    background: #000;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(-500px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}

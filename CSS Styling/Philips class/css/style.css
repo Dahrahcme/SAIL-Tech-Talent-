@@ -1,0 +1,35 @@
+body {
+    background-color: navy;
+}
+
+.container {
+    background-color: burlywood;
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 5px;
+}
+
+img {
+    width: 50px;
+    margin-left: 120px;
+    margin-top: 2px;
+}
+
+input {
+    border-radius: 20px;
+}
+
+button {
+    background-color: black;
+    color: beige;
+    border-radius: 10px;
+    width: 150px;
+    margin-left: 70px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: none;
+}

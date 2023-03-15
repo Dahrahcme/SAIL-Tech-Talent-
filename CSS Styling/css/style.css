@@ -1,0 +1,50 @@
+/* * {
+    color: blue;
+}  universal selector*/
+
+/* h1 {
+    color: indigo;
+} element selector*/
+
+/* #heading3 {
+    font-size: 2rem;
+}  id selector*/
+
+/* .heading {
+    background-color: brown;
+} class selector*/
+
+/* h1, h2, h3, h5, p {
+    background-color: aqua;
+} group selector
+
+.heading {
+    color: green;
+    background-color: royalblue;
+}
+
+#heading3 {
+    background-color: crimson;
+} */
+
+/* .heading, #heading5 {
+    background-color: gold;
+} possible but not best practice */
+
+/* div p {
+    background-color: yellow;
+    color: blueviolet;
+}  group selector*/
+
+ body p {
+    background-color: darkolivegreen;
+} /*affects all the p tags including the p tags in the div */
+
+/* body div p {
+    background-color: yellowgreen;
+} chain system that affects the p tags in the div which is a child to body */
+
+span {
+    background-color: black;
+    color: antiquewhite;
+}

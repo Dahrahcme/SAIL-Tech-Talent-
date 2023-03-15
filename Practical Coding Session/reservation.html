@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rerservation Form</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>Travel reservation form</h1>
+            <h4>* denotes mandatory</h4>
+        </header>
+        <form action="https://getform.io/f/c746b437-79bb-4a22-8220-70c6ca777890" method="post">
+            <label for="fullname">Fullname*: </label>
+            <br />
+            <input type="text" name="fullname" id="fullname" placeholder="FirstName LastName" />
+            <br />
+            <br />
+            <label for="email">Email address*: </label>
+            <br />
+            <input type="email" name="email" id="email" placeholder="EMAIL ADDRESS" />
+            <br />
+            <br />
+            <label for="tour">Select Tour Package*:</label>
+            <br />
+            <select name="tour" id="">
+                <option value="paris">Paris</option>
+                <option value="uae">UAE</option>
+                <option value="italy">Italy</option>
+                <option value="canada">Canada</option>
+            </select>
+            <br />
+            <br />
+            <label for="date">Arrival date*:</label>
+            <br />
+            <input type="date" name="date" id="" />
+            <br />
+            <br />
+            <label for="persons">Number of persons*:</label>
+            <br />
+            <input type="number" placeholder="Number Of Persons" name="persons" />
+            <br />
+            <br />
+            <label for="interest">What are your interests?*</label>
+            <br />
+            <span>
+                <label for="football">Football</label>
+                <input type="checkbox" name="football" id="football" value="football" />
+                <br />
+                <label for="basketball">Basketball</label>
+                <input type="checkbox" name="basketball" id="basketball" value="basketball" />
+                <br />
+                <label for="music">Music</label>
+                <input type="checkbox" name="music" id="music" value="music" />
+                <br />
+                <label for="swimming">Swimming</label>
+                <input type="checkbox" name="swimming" id="swimming" value="swimming" />
+                <br />
+                <label for="art">Art</label>
+                <input type="checkbox" name="art" id="art" value="art" />
+                <br />
+                <label for="politics">Politics</label>
+                <input type="checkbox" name="politics" id="politics" value="politics" />
+                <br />
+                <label for="food">Fooding</label>
+                <input type="checkbox" name="food" id="food" />
+                <br />
+                <label for="love">Love & Romance</label>
+                <input type="checkbox" name="love" id="love" />
+                <br />
+                <label for="tech">Technology</label>
+                <input type="checkbox" name="tech" id="tech" />
+                <br />
+            </span>
+            <br />
+            <label for="coupon">Discount Coupon code:</label>
+            <br />
+            <input type="text" placeholder="Coupon Code" name="coupon" />
+            <br />
+            <br />
+            <label for="terms">Terms and conditions*</label>
+            <br />
+            <span>
+                <input type="radio" name="terms" id="yes" />
+                <label for="terms">I agree</label>
+                <input type="radio" name="terms" id="no" />
+                <label for="terms">I disagree</label><br />
+            </span>
+            <br />
+            <button type="submit">Make Reservation</button><br>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+/* h1 {
+    text-align: center;
+    color: blue;
+    font-size: 6em;
+    font-weight: 900;
+}
+
+.second {
+    color: brown;
+} */
+
+* {
+
+}
+
+li {
+    padding: 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
+li:hover {
+
+}
+
+a {
+    color: white
+}

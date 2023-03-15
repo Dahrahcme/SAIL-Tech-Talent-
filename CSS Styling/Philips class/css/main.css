@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Mynerve&display=swap');
+/* #tags {
+    background-color: gold;
+} */
+
+/* .tags {
+    background-color: gold;
+} */
+
+/* #tags:hover {
+    background-color: pink;
+} */
+
+/* button > h1 {
+    background-color: aquamarine;
+    color: brown;
+} */
+
+button {
+    background-color: gold;
+} 
+
+button:hover {
+    background-color: pink;
+}
+
+h1 {
+    color: rgb(204, 129, 17);
+    /* font-family: 'Monoton', cursive; */
+    font-family: 'Mynerve', cursive;
+    font-size: 100px;
+    font-style: italic;
+} 

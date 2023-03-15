@@ -1,0 +1,58 @@
+url('https://fonts.cdnfonts.com/css/youtube-sans');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'YouTube Sans', sans-serif;
+    font-family: 'YouTube Sans Dark', sans-serif;
+}
+
+.container_wrapper {
+    height: 100vh;
+ 
+    display: grid;
+    grid-template-columns: 15rem 1fr; 
+}
+
+.container_wrapper nav, main {
+    height: 100%;
+}
+
+.container_wrapper nav {
+    background-color: white;
+    /* display: grid;
+    place-content: center; */
+}
+
+.container_wrapper main {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 3rem 3rem 1fr;
+}
+
+.container_wrapper nav .logo {
+    width: 75%;
+    height: 3rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container_wrapper nav .logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.container_wrapper nav ul {
+    width: 75%;
+    height: 15rem;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+    margin: 1rem auto;
+}
+
+.container_wrapper main .header {
+    background-color: white;
+    outline: rgba(0, 0, 0, 0.10);
+}

@@ -1,0 +1,21 @@
+body {
+    background: #000; 
+    margin: auto;
+}
+
+button {
+    padding: 2rem;
+    background-color: chocolate;
+    border: none;
+    border-radius: 20px;
+    margin: 300px 300px 200px;
+
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+button:hover {
+    transform: translateY(-50px);
+}
