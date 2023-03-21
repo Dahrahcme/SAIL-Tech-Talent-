@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #dfc3ef;
+}
+
+.container {
+    display: grid;
+    background-color: #001e34;
+    height: 30rem;
+    width: 15rem;
+    border-radius: 25px;
+    grid-template-rows: 10rem 1fr;
+    padding: 0.2rem;
+    align-content: center;
+    justify-content: center;
+}
+
+.buttons {
+    background-color: #002b4a;
+    width: 14.5rem;
+    border-bottom-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}

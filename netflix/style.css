@@ -6,7 +6,7 @@ body {
     font-family: ;
 }
 
-header {
+.header {
     height: 80vh;
     background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5523db5a-e2b2-497f-a88b-61f175c3dbad/339c1909-7a07-43b5-9e9f-48ad732595de/NG-en-20230306-popsignuptwoweeks-perspective_alpha_website_small.jpg);
     
@@ -34,4 +34,10 @@ input{
     text-align: center;
     justify-content: center;
     bo
+}
+
+.signin {
+    background-color: black;
+    width: 25rem;
+    bord
 }

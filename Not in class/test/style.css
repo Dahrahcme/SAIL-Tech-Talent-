@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    height: 100vh;
+  }
+
+  .container {
+    height: 100%;
+    display: grid;
+    color: blue;
+    grid-template-rows: 5rem 1fr;
+  }
+
+  /* HEADER SECTION STYLING */
+
+header {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 3rem;
+  }
+  
+   .logo, .menu, .auth {
+    background-color: white;
+    height: 100%;
+  }
+
+  .container header .logo {
+    width: 10rem;
+  }
+  
+  .container header .menu {
+    width: 45rem;
+  }
+
+  .container header .auth {
+    width: 15rem;
+  }
+
+  .container main {
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: 1fr 50rem;
+    gap: 2rem;
+    padding: 1.8rem;
+  }
+  
+  .container main .aside {
+    background-color: black;
+  }
+
+  .container main .content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .container main .content .slideshow {
+    background-color: black;
+  }
+  
+  .container main .content .card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .container main .content .card div {
+    background-color: black;
+  } 
+  

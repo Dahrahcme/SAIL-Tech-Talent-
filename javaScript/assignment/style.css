@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    margin-top: 10px;
+    margin-left: 20px;
+
+    animation: slide 5s linear 1s 1 normal;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+/* @keyframes animate {
+    from {
+        transform: translateX(10px);
+    }
+
+    to {
+        transform: translateX(300px);
+    }
+} */
