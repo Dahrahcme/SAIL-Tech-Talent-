@@ -2,12 +2,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000;
-    color: white;
-    font-family: ;
+    /* color: white; */
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 .header {
-    height: 80vh;
+    height: 100vh;
+    width: 100%;
     background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5523db5a-e2b2-497f-a88b-61f175c3dbad/339c1909-7a07-43b5-9e9f-48ad732595de/NG-en-20230306-popsignuptwoweeks-perspective_alpha_website_small.jpg);
     
 }
